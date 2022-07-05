@@ -97,12 +97,6 @@ input{
 
 @media   screen and (max-width:900px) {
 
-
-    body{
-        background-color: aliceblue;
-        /* line-height: 2em; */
-    }
-
     main{
         width: 70%;
     }
@@ -112,5 +106,9 @@ input{
     .product:active{
         padding: 0;
         line-height: 2em;
+    }
+
+    #checks,#check{
+        display: none;
     }
 }
